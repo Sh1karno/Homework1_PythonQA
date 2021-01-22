@@ -1,8 +1,8 @@
 # Homework1_PythonQA
 
-Homework for lessons: "Introduction to Pytest" and "Working with test data" 
+#### Homework for lessons: "Introduction to Pytest" and "Working with test data"
 
-To run tests use:
+### To run tests use:
 
 - All tests:
 
