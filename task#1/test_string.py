@@ -1,7 +1,6 @@
 import pytest
 
 
-
 class TestStringMethod:
 
     @pytest.mark.first_test_method

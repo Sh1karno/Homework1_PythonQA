@@ -1,9 +1,12 @@
+#!/usr/bin/python
+
 import csv
 import json
 
-USERS_JSON_FILE_PATH = "./input_files/users.json"
-BOOKS_CSV_FILE_PATH = "./input_files/books-39204-271043.csv"
-USERS_WITH_BOOKS_JSON_FILE = "./output_file/users_with_books.json"
+
+USERS_JSON_FILE_PATH = "./files/users.json"
+BOOKS_CSV_FILE_PATH = "./files/books-39204-271043.csv"
+USERS_WITH_BOOKS_JSON_FILE = "./files/users_with_books.json"
 
 
 def read_json_file(file_path):
@@ -35,8 +38,8 @@ def get_list_users_with_books(users, books):
 
 def get_json_file_users_with_books(file_path, data):
     with open(file_path, "w") as users_with_books:
-        s = json.dumps(data, indent=4)
-        return users_with_books.write(s)
+        users_with_books_data = json.dumps(data, indent=4)
+        return users_with_books.write(users_with_books_data)
 
 
 USERS = read_json_file(USERS_JSON_FILE_PATH)

@@ -1,7 +1,6 @@
 import pytest
 
 
-
 class TestDictMethods:
 
     @pytest.mark.first_test_method
@@ -29,7 +28,3 @@ class TestDictMethods:
     def test_dict_values(self, create_dict, key):
         value_dict = create_dict[key]
         assert value_dict in create_dict.values()
-
-
-
-

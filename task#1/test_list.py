@@ -1,7 +1,6 @@
 import pytest
 
 
-
 class TestListMethods:
 
     @pytest.mark.first_test_method

@@ -2,7 +2,7 @@
 
 #### Homework for lessons: "Introduction to Pytest" and "Working with test data"
 
-### To run tests use:
+### 1. To run tests use:
 
 - All tests:
 
@@ -16,3 +16,6 @@
 
 `pytest -sm "passed_only"`
   
+
+### 2. To create a file "users_with_books.json" in a directory "files", you need to run:
+`./main.py`

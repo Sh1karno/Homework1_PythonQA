@@ -2,7 +2,6 @@ import pytest
 from datetime import datetime
 
 
-
 @pytest.fixture(scope="session", autouse=True)
 def set_time_testrun():
     start_time = datetime.now()
@@ -24,10 +23,12 @@ def create_list():
     list_data = [i for i in range(1, 5)]
     return list_data
 
+
 @pytest.fixture
 def create_string():
     string_data = 'abcde'
     return string_data
+
 
 @pytest.fixture
 def create_set_one(create_string):
@@ -45,5 +46,3 @@ def create_set_two():
 def create_dict(create_list):
     dict_data = {i: i ** 2 for i in create_list}
     return dict_data
-
-
