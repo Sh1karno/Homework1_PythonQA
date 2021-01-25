@@ -5,7 +5,7 @@ import json
 
 
 USERS_JSON_FILE_PATH = "./files/users.json"
-BOOKS_CSV_FILE_PATH = "./files/books-39204-271043.csv"
+BOOKS_CSV_FILE_PATH = "./files/books.csv"
 USERS_WITH_BOOKS_JSON_FILE = "./files/users_with_books.json"
 
 
